@@ -22,3 +22,5 @@ Route::get('contact_page','ContactController@ContactView');
 Route::get('myinformation','MyInformationController@InformationView');
 
 Route::get('roommate','RoomateController@RoomMateView');
+
+Route::get('latting','LateUploadController@UploadedView');
