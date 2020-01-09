@@ -24,3 +24,5 @@ Route::get('myinformation','MyInformationController@InformationView');
 Route::get('roommate','RoomateController@RoomMateView');
 
 Route::get('latting','LateUploadController@UploadedView');
+
+Route::post('latting','LateUploadController@UploadedView');
