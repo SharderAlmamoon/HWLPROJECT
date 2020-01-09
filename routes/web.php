@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','AboutController@AboutControllerViiw');
 
-Route::get('teacher',function(){
-    echo "<h1>MOHAMMAD -ALMAMOON</h1>";
-});
+//Route::get('teacher',function(){
+//    echo "<h1>MOHAMMAD -ALMAMOON</h1>";
+//});
+
+Route::get('contact_page','ContactController@ContactView');
+
+Route::get('myinformation','MyInformationController@InformationView');
+
+Route::get('roommate','RoomateController@RoomMateView');
