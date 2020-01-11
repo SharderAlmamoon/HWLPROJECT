@@ -26,3 +26,9 @@ Route::get('roommate','RoomateController@RoomMateView');
 Route::get('latting','LateUploadController@UploadedView');
 
 Route::post('latting','LateUploadController@UploadedView');
+
+Route::get('tableview','TableController@viewtable');
+
+Route::get('tableview/create','TableController@create');
+
+Route::get('tableview/store','TableController@store');
